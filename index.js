@@ -38,8 +38,13 @@ function removeLastKitten(name){
   return arr;
 }
 
+<<<<<<< HEAD
 function removeFirstKitten(){
   let arr = kittens.slice(1);
+=======
+function removeFirstKitten(name){
+  let arr = name.slice(1);
+>>>>>>> b4a3c1e96425806318000144d91a0060ef6286da
   return arr;
 }
 
